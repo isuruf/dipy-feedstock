@@ -10,10 +10,7 @@ source:
   md5: 72a1d734f7b9545fac46e720e157ac79
 
 build:
-    number: 1
-    script:
-      - "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" x86
-      - python setup.py install
+  number: 1
 
 requirements:
   build:
